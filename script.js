@@ -6,6 +6,11 @@ window.addEventListener('scroll', function () {
 let slideIndex = 1
 showSlides(slideIndex)
 
+//Function Close Menu Toogle
+function closeMenu() {
+  document.body.classList.remove('nav-links')
+}
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides((slideIndex += n))
