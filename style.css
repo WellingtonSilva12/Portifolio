@@ -145,7 +145,7 @@ nav.sticky {
   /* border-radius: 0 0 20px 20px; */
 }
 
-.sobre p {
+.about p {
   text-align: center;
 }
 
@@ -381,9 +381,9 @@ h2:after {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.fade {
+/* .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: .5s;
 }
 
 @keyframes fade {
@@ -393,7 +393,7 @@ h2:after {
   to {
     opacity: 1;
   }
-}
+} */
 
 .btn-top {
   position: fixed;
@@ -467,7 +467,7 @@ footer {
     margin-top: 5px;
     padding: 15px 15px;
   }
-  .sobre p {
+  .about p {
     width: 350px;
     text-align: center;
   }
@@ -478,30 +478,35 @@ footer {
     height: 400px;
     text-align: center;
     font-size: 1rem;
+    
+  }
+  .foto-perfil {
+    position: relative;
+    top: -6rem;
   }
   .foto-perfil img {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
   }
   .principal {
     width: 100%;
     background-color: white;
-    margin: -230px auto 0 auto;
+    margin-top: -250px;
     padding: 225px 0 30px 0;
     /* border-radius: 0 0 20px 20px; */
   }
 
   .redes-sociais i {
-    padding: -15px 2px;
-    font-size: 45px;
-    margin: -5px -5px;
-    color: dimgray;
+    position: relative;
+    top: -6rem;
+    
   }
   .container {
     display: flex;
     flex-direction: column;
-    justify-self: center;
     align-items: center;
+    
+    
   }
   .button {
     flex-direction: column;
@@ -513,7 +518,8 @@ footer {
     margin-top: 5px;
     padding: 15px 15px;
   }
-  .sobre p {
+  .about p {
+    margin-top: -6rem;
     width: 350px;
     text-align: center;
   }
@@ -583,7 +589,7 @@ footer {
     left: 0;
   }
   nav.sticky {
-    background-color: dimgray;
+    background-color: #00bed8;
     transition: 0.8s ease;
   }
   .container {
